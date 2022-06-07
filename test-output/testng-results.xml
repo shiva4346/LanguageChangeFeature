@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-03T16:59:01 IST" name="BatchTestSuite" finished-at="2022-06-03T16:59:01 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- BatchTestSuite -->
+  <suite started-at="2022-06-03T16:54:16 IST" name="LangaugeChange" finished-at="2022-06-03T16:58:57 IST" duration-ms="281857">
+    <groups>
+    </groups>
+    <test started-at="2022-06-03T16:54:16 IST" name="LanguageLogIn" finished-at="2022-06-03T16:56:20 IST" duration-ms="124397">
+      <class name="com.quantela.testscripts.UI.LanguageChange.LanguageLogInTest">
+        <test-method signature="tenantActiveLanguages()[pri:0, instance:com.quantela.testscripts.UI.LanguageChange.LanguageLogInTest@7d61eccf]" started-at="2022-06-03T16:54:16 IST" name="tenantActiveLanguages" finished-at="2022-06-03T16:56:00 IST" duration-ms="104770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tenantActiveLanguages -->
+        <test-method signature="langaugedropdownDisplayLogin()[pri:1, instance:com.quantela.testscripts.UI.LanguageChange.LanguageLogInTest@7d61eccf]" started-at="2022-06-03T16:56:01 IST" name="langaugedropdownDisplayLogin" finished-at="2022-06-03T16:56:06 IST" duration-ms="5126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- langaugedropdownDisplayLogin -->
+        <test-method signature="languageDropdownEnableLogin()[pri:2, instance:com.quantela.testscripts.UI.LanguageChange.LanguageLogInTest@7d61eccf]" started-at="2022-06-03T16:56:06 IST" name="languageDropdownEnableLogin" finished-at="2022-06-03T16:56:06 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageDropdownEnableLogin -->
+        <test-method signature="languageChangeLogin()[pri:3, instance:com.quantela.testscripts.UI.LanguageChange.LanguageLogInTest@7d61eccf]" started-at="2022-06-03T16:56:06 IST" name="languageChangeLogin" finished-at="2022-06-03T16:56:15 IST" duration-ms="9235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageChangeLogin -->
+        <test-method signature="labelCheckLogin()[pri:4, instance:com.quantela.testscripts.UI.LanguageChange.LanguageLogInTest@7d61eccf]" started-at="2022-06-03T16:56:15 IST" name="labelCheckLogin" finished-at="2022-06-03T16:56:20 IST" duration-ms="5063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- labelCheckLogin -->
+      </class> <!-- com.quantela.testscripts.UI.LanguageChange.LanguageLogInTest -->
+    </test> <!-- LanguageLogIn -->
+    <test started-at="2022-06-03T16:56:21 IST" name="LanguageForgotPassword" finished-at="2022-06-03T16:56:49 IST" duration-ms="28228">
+      <class name="com.quantela.testscripts.UI.LanguageChange.LanguageForgotPasswordTest">
+        <test-method signature="forgotPasswordLinkClick()[pri:0, instance:com.quantela.testscripts.UI.LanguageChange.LanguageForgotPasswordTest@43c67247]" started-at="2022-06-03T16:56:21 IST" name="forgotPasswordLinkClick" finished-at="2022-06-03T16:56:30 IST" duration-ms="8344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordLinkClick -->
+        <test-method signature="langaugedropdownDisplayForgotPassword()[pri:1, instance:com.quantela.testscripts.UI.LanguageChange.LanguageForgotPasswordTest@43c67247]" started-at="2022-06-03T16:56:30 IST" name="langaugedropdownDisplayForgotPassword" finished-at="2022-06-03T16:56:33 IST" duration-ms="3089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- langaugedropdownDisplayForgotPassword -->
+        <test-method signature="languageDropdownEnableForgotPassword()[pri:2, instance:com.quantela.testscripts.UI.LanguageChange.LanguageForgotPasswordTest@43c67247]" started-at="2022-06-03T16:56:33 IST" name="languageDropdownEnableForgotPassword" finished-at="2022-06-03T16:56:33 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageDropdownEnableForgotPassword -->
+        <test-method signature="languageChangeForgotPassword()[pri:3, instance:com.quantela.testscripts.UI.LanguageChange.LanguageForgotPasswordTest@43c67247]" started-at="2022-06-03T16:56:33 IST" name="languageChangeForgotPassword" finished-at="2022-06-03T16:56:41 IST" duration-ms="8607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageChangeForgotPassword -->
+        <test-method signature="labelCheckForgotPassword()[pri:4, instance:com.quantela.testscripts.UI.LanguageChange.LanguageForgotPasswordTest@43c67247]" started-at="2022-06-03T16:56:41 IST" name="labelCheckForgotPassword" finished-at="2022-06-03T16:56:49 IST" duration-ms="8135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- labelCheckForgotPassword -->
+      </class> <!-- com.quantela.testscripts.UI.LanguageChange.LanguageForgotPasswordTest -->
+    </test> <!-- LanguageForgotPassword -->
+    <test started-at="2022-06-03T16:56:50 IST" name="LanguageUserOnBoard" finished-at="2022-06-03T16:57:21 IST" duration-ms="30875">
+      <class name="com.quantela.testscripts.UI.LanguageChange.LanguageUserOnBoardTest">
+        <test-method signature="applicationSignIn()[pri:0, instance:com.quantela.testscripts.UI.LanguageChange.LanguageUserOnBoardTest@5bd1ceca]" started-at="2022-06-03T16:56:50 IST" name="applicationSignIn" finished-at="2022-06-03T16:56:57 IST" duration-ms="6983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationSignIn -->
+        <test-method signature="langaugedropdownDisplayHomePage()[pri:1, instance:com.quantela.testscripts.UI.LanguageChange.LanguageUserOnBoardTest@5bd1ceca]" started-at="2022-06-03T16:56:57 IST" name="langaugedropdownDisplayHomePage" finished-at="2022-06-03T16:57:06 IST" duration-ms="8988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- langaugedropdownDisplayHomePage -->
+        <test-method signature="languageDropdownEnableHomePage()[pri:2, instance:com.quantela.testscripts.UI.LanguageChange.LanguageUserOnBoardTest@5bd1ceca]" started-at="2022-06-03T16:57:06 IST" name="languageDropdownEnableHomePage" finished-at="2022-06-03T16:57:06 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageDropdownEnableHomePage -->
+        <test-method signature="languageChangeHomePage()[pri:3, instance:com.quantela.testscripts.UI.LanguageChange.LanguageUserOnBoardTest@5bd1ceca]" started-at="2022-06-03T16:57:06 IST" name="languageChangeHomePage" finished-at="2022-06-03T16:57:12 IST" duration-ms="6755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageChangeHomePage -->
+        <test-method signature="labelCheckHomePage()[pri:4, instance:com.quantela.testscripts.UI.LanguageChange.LanguageUserOnBoardTest@5bd1ceca]" started-at="2022-06-03T16:57:12 IST" name="labelCheckHomePage" finished-at="2022-06-03T16:57:21 IST" duration-ms="8100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- labelCheckHomePage -->
+      </class> <!-- com.quantela.testscripts.UI.LanguageChange.LanguageUserOnBoardTest -->
+    </test> <!-- LanguageUserOnBoard -->
+    <test started-at="2022-06-03T16:57:21 IST" name="LanguagePublicDashboard" finished-at="2022-06-03T16:58:57 IST" duration-ms="96610">
+      <class name="com.quantela.testscripts.UI.LanguageChange.LanguagePublicDashboardTest">
+        <test-method signature="dashboardCreation()[pri:0, instance:com.quantela.testscripts.UI.LanguageChange.LanguagePublicDashboardTest@1827a871]" started-at="2022-06-03T16:57:21 IST" name="dashboardCreation" finished-at="2022-06-03T16:57:33 IST" duration-ms="12352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardCreation -->
+        <test-method signature="publicDashboardNavigation()[pri:1, instance:com.quantela.testscripts.UI.LanguageChange.LanguagePublicDashboardTest@1827a871]" started-at="2022-06-03T16:57:33 IST" name="publicDashboardNavigation" finished-at="2022-06-03T16:58:35 IST" duration-ms="61996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publicDashboardNavigation -->
+        <test-method signature="langaugedropdownDisplayPublic()[pri:2, instance:com.quantela.testscripts.UI.LanguageChange.LanguagePublicDashboardTest@1827a871]" started-at="2022-06-03T16:58:35 IST" name="langaugedropdownDisplayPublic" finished-at="2022-06-03T16:58:38 IST" duration-ms="3100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- langaugedropdownDisplayPublic -->
+        <test-method signature="languageDropdownEnablePublic()[pri:3, instance:com.quantela.testscripts.UI.LanguageChange.LanguagePublicDashboardTest@1827a871]" started-at="2022-06-03T16:58:38 IST" name="languageDropdownEnablePublic" finished-at="2022-06-03T16:58:38 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageDropdownEnablePublic -->
+        <test-method signature="languageChangePublic()[pri:4, instance:com.quantela.testscripts.UI.LanguageChange.LanguagePublicDashboardTest@1827a871]" started-at="2022-06-03T16:58:38 IST" name="languageChangePublic" finished-at="2022-06-03T16:58:44 IST" duration-ms="5636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageChangePublic -->
+        <test-method signature="labelCheckPublic()[pri:5, instance:com.quantela.testscripts.UI.LanguageChange.LanguagePublicDashboardTest@1827a871]" started-at="2022-06-03T16:58:44 IST" name="labelCheckPublic" finished-at="2022-06-03T16:58:52 IST" duration-ms="8143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- labelCheckPublic -->
+        <test-method signature="browserclose()[pri:6, instance:com.quantela.testscripts.UI.LanguageChange.LanguagePublicDashboardTest@1827a871]" started-at="2022-06-03T16:58:52 IST" name="browserclose" finished-at="2022-06-03T16:58:57 IST" duration-ms="5298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- com.quantela.testscripts.UI.LanguageChange.LanguagePublicDashboardTest -->
+    </test> <!-- LanguagePublicDashboard -->
+  </suite> <!-- LangaugeChange -->
+</testng-results>

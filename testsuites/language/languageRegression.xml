@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LangaugeChange">
+
+	<listeners>
+		<listener class-name="base.Listeners" />
+	</listeners>
+
+	<test name="LanguageLogIn">
+		<classes>
+			<class
+				name="com.quantela.testscripts.UI.LanguageChange.LanguageLogInTest">
+				<methods>
+				    <include name="tenantActiveLanguages"/>
+					<include name="langaugedropdownDisplayLogin" />
+					<include name="languageDropdownEnableLogin"/>
+					<include name="languageChangeLogin"/>
+					<include name="labelCheckLogin"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="LanguageForgotPassword">
+		<classes>
+			<class
+				name="com.quantela.testscripts.UI.LanguageChange.LanguageForgotPasswordTest">
+				<methods>
+					<include name="forgotPasswordLinkClick" />
+					<include name="langaugedropdownDisplayForgotPassword"/>
+					<include name="languageDropdownEnableForgotPassword"/>
+					<include name="languageChangeForgotPassword"/>
+					<include name="labelCheckForgotPassword"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="LanguageUserOnBoard">
+		<classes>
+			<class
+				name="com.quantela.testscripts.UI.LanguageChange.LanguageUserOnBoardTest">
+				<methods>
+					<include name="applicationSignIn" />
+					<include name="langaugedropdownDisplayHomePage" />
+					<include name="languageDropdownEnableHomePage" />
+					<include name="languageChangeHomePage" />
+					<include name="labelCheckHomePage" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="LanguagePublicDashboard">
+		<classes>
+			<class
+				name="com.quantela.testscripts.UI.LanguageChange.LanguagePublicDashboardTest">
+				<methods>
+					<include name="dashboardCreation" />
+					<include name="publicDashboardNavigation" />
+					<include name="langaugedropdownDisplayPublic" />
+					<include name="languageDropdownEnablePublic" />
+					<include name="languageChangePublic" />
+					<include name="labelCheckPublic" />
+				    <include name="browserclose" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>
