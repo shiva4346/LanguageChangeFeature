@@ -61,7 +61,7 @@ public class Commonmethods {
 		driverWait(5000);
 		if(driver.getTitle().equalsIgnoreCase("Quantela Application - Login"))
 		{
-			log.info("User successfully logged out from the application");
+			log.info("User successfully got logged out from the application");
 		}
 		else
 		{
