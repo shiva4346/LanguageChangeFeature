@@ -47,7 +47,7 @@ public class Commonmethods {
 		lp.password().sendKeys("Test@123");
 		driverWait(3000);
 		lp.signInButton().click();
-		log.info("Logged in to the application");
+		log.info("Logged in to the application successfully");
 	}
 	
 	public static void logout() throws InterruptedException {
