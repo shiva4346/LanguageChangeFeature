@@ -33,7 +33,7 @@ public class Commonmethods {
 	    driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();	
-		log.info("Browser launched successfully");
+		log.info("Browser launched successfully - Github");
 	}
 
 	public static void launchURL() {
